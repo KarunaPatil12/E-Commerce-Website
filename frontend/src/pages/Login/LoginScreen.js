@@ -52,16 +52,11 @@ const LoginScreen = ({location, history}) => {
     }
   }
   
-  
   inputs.forEach(inputa => {
     inputa.addEventListener("focus", addcl);
     inputa.addEventListener("blur", remcl);
   });
   
-
-
-
-
     return (
         <div>
           <Helmet>

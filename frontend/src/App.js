@@ -64,17 +64,9 @@ import Orders from './pages/Orders/Orders'
                  <Route path="/admin/productlist" component={Products}/>
                  <Route path="/admin/orderlist" component={Orders}/>
                  <Route path="/search/:keyword" component={Shop}/>
-
                  <Route path="/admin/user/:id/edit" component={Edituser}/>
                  <Route path="/admin/product/:id/edit" component={Editproduct}/>
-
-                 
                  <Route component={NotFoundPage} />
-
-
-
-
-
                  </Switch>
                  <Footer/>
           </>
@@ -83,8 +75,6 @@ import Orders from './pages/Orders/Orders'
       </Router>
    </ChakraProvider>
     </div>
-     
-    
   )
 }
 export default App;
